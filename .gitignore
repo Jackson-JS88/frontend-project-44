@@ -1,0 +1,11 @@
+# Зависимости npm
+node_modules/
+
+# опционально
+.DS_Store
+.env
+*.log
+.idea/
+.vscode/
+dist/
+coverage/
