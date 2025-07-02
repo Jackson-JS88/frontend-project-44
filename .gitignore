@@ -8,4 +8,4 @@ node_modules/
 .idea/
 .vscode/
 dist/
-coverage/
+coverage/eslint.config.js
