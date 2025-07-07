@@ -1,6 +1,10 @@
+/* eslint-disable no-console */
+
 import readlineSync from 'readline-sync';
 
 const ROUNDS_COUNT = 3;
+
+
 
 const runEngine = (description, generateRound) => {
   console.log('Welcome to the Brain Games!');

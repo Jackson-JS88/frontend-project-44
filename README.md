@@ -10,3 +10,7 @@ https://asciinema.org/connect/826681ce-a051-41dd-bd48-3509fd99096c
 ## Демонстрация работы brain-calc:
 
 https://asciinema.org/connect/826681ce-a051-41dd-bd48-3509fd99096c
+
+## Демонстрация работы brain-gcd:
+
+https://asciinema.org/a/zFqDhwwSzrnnYuXLqP1JVZ5Qu
