@@ -14,3 +14,6 @@ https://asciinema.org/connect/826681ce-a051-41dd-bd48-3509fd99096c
 ## Демонстрация работы brain-gcd:
 
 https://asciinema.org/a/zFqDhwwSzrnnYuXLqP1JVZ5Qu
+
+## Демонстрация работы brain-progression:
+https://asciinema.org/a/w72ZeiYgZmG9bECdBvJLRF8AF
