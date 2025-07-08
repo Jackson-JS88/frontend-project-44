@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import runGcdGame from '../src/game/gcd.js';
+import runEngine from '../src/index.js';
+import { description, generateRound } from '../src/game/even.js';
 
-runGcdGame();
+runEngine(description, generateRound);

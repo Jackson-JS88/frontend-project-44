@@ -1,19 +1,16 @@
 import getRandomNumber from '../utils.js';
-import runEngine from '../index.js';
+
+const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (number) => number % 2 === 0;
 
 const generateRound = () => {
-  const MIN_NUMBER = 1;
-  const MAX_NUMBER = 100;
-  const question = getRandomNumber(MIN_NUMBER, MAX_NUMBER);
+  const question = getRandomNumber(1, 100);
   const correctAnswer = isEven(question) ? 'yes' : 'no';
-  return { question, correctAnswer };
+  return { 
+    question: question.toString(),
+    correctAnswer,
+  };
 };
 
-const runEvenGame = () => {
-  const description = 'Answer "yes" if the number is even, otherwise answer "no".';
-  runEngine(description, generateRound);
-};
-
-export default runEvenGame;
+export { description, generateRound };

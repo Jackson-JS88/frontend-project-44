@@ -1,4 +1,3 @@
-import runGame from '../index.js';
 import getRandomNumber from '../utils.js';
 
 const description = 'What is the result of the expression?';
@@ -23,10 +22,10 @@ const generateRound = () => {
   const num2 = getRandomNumber(1, 10);
   const operator = operators[getRandomNumber(0, operators.length - 1)];
 
-  const question = `${num1} ${operator} ${num2}`;
-  const correctAnswer = calculate(num1, num2, operator).toString();
-
-  return { question, correctAnswer };
+  return {
+    question: `${num1} ${operator} ${num2}`,
+    correctAnswer: calculate(num1, num2, operator).toString(),
+  };
 };
 
-export default () => runGame(description, generateRound);
+export { description, generateRound };
