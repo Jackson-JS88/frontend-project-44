@@ -4,7 +4,7 @@ module.exports = {
     es2022: true,
     es2021: true,
   },
-  extends: 'eslint:recommended',
+  extends: ['plugin:@stylistic/recommended', 'prettier'],
   plugins: ['@stylistic'],
   parserOptions: {
     ecmaVersion: 'latest',
@@ -25,4 +25,4 @@ module.exports = {
     '@stylistic/object-curly-spacing': ['error', 'always'],
     '@stylistic/array-bracket-spacing': ['error', 'never'],
   },
-};
+}

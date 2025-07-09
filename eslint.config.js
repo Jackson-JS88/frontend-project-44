@@ -1,4 +1,4 @@
-import stylisticJs from '@stylistic/eslint-plugin';
+import stylisticJs from '@stylistic/eslint-plugin'
 
 export default [
   {
@@ -14,7 +14,7 @@ export default [
       // Базовые правила
       'no-console': 'warn',
       'no-unused-vars': 'error',
-      
+
       // Правила @stylistic
       '@stylistic/indent': ['error', 2],
       '@stylistic/linebreak-style': ['error', 'unix'],
@@ -29,4 +29,4 @@ export default [
       '@stylistic/array-bracket-spacing': ['error', 'never'],
     },
   },
-];
+]

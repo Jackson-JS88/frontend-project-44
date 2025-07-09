@@ -17,13 +17,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --write"
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "@stylistic/eslint-plugin": "^5.1.0",
-    "eslint": "^9.30.0"
+    "eslint": "^9.30.0",
+    "eslint-config-prettier": "^10.1.5",
+    "prettier": "^3.6.2"
   }
 }
