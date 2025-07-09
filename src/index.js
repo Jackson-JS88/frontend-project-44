@@ -1,4 +1,3 @@
-
 import readlineSync from 'readline-sync'
 
 const ROUNDS_COUNT = 3
