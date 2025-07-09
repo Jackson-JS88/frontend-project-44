@@ -25,4 +25,4 @@ module.exports = {
     '@stylistic/object-curly-spacing': ['error', 'always'],
     '@stylistic/array-bracket-spacing': ['error', 'never'],
   },
-};
+}
