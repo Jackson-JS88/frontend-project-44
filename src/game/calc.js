@@ -1,31 +1,31 @@
-import getRandomNumber from '../utils.js'
+import getRandomNumber from '../utils.js';
 
-const description = 'What is the result of the expression?'
+const description = 'What is the result of the expression?';
 
-const operators = ['+', '-', '*']
+const operators = ['+', '-', '*'];
 
 const calculate = (a, b, operator) => {
   switch (operator) {
     case '+':
-      return a + b
+      return a + b;
     case '-':
-      return a - b
+      return a - b;
     case '*':
-      return a * b
+      return a * b;
     default:
-      throw new Error(`Unknown operator: ${operator}`)
+      throw new Error(`Unknown operator: ${operator}`);
   }
-}
+};
 
 const generateRound = () => {
-  const num1 = getRandomNumber(1, 30)
-  const num2 = getRandomNumber(1, 10)
-  const operator = operators[getRandomNumber(0, operators.length - 1)]
+  const num1 = getRandomNumber(1, 30);
+  const num2 = getRandomNumber(1, 10);
+  const operator = operators[getRandomNumber(0, operators.length - 1)];
 
   return {
     question: `${num1} ${operator} ${num2}`,
     correctAnswer: calculate(num1, num2, operator).toString(),
-  }
-}
+  };
+};
 
-export { description, generateRound }
+export { description, generateRound };

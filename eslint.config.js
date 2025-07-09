@@ -1,4 +1,4 @@
-import stylisticJs from '@stylistic/eslint-plugin'
+import stylisticJs from '@stylistic/eslint-plugin';
 
 export default [
   {
@@ -29,4 +29,4 @@ export default [
       '@stylistic/array-bracket-spacing': ['error', 'never'],
     },
   },
-]
+];

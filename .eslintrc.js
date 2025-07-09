@@ -11,7 +11,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'no-console': 'warn',
+    'no-console': 'off',
     'no-unused-vars': 'error',
     '@stylistic/indent': ['error', 2],
     '@stylistic/linebreak-style': ['error', 'unix'],
@@ -25,4 +25,4 @@ module.exports = {
     '@stylistic/object-curly-spacing': ['error', 'always'],
     '@stylistic/array-bracket-spacing': ['error', 'never'],
   },
-}
+};
